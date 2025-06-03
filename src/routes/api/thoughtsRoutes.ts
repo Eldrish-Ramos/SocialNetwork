@@ -9,7 +9,7 @@ import {
   deleteThought,
   addReaction,
   removeReaction,
-} from '../../controllers/thoughtsControllers.js';
+} from '../../controllers/thoughtsController.js';
 
 router.route('/')
   .get(getAllThoughts)
